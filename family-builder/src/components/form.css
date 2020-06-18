@@ -1,0 +1,15 @@
+form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    height: 40vh;
+}
+
+input {
+    margin: 30px 0;
+}
+
+button {
+    align-self: center;
+    width:10%;
+}
