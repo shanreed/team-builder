@@ -3,6 +3,8 @@ import { useParams, useRouteMatch, Route, NavLink } from "react-router-dom";
 import MemberSocial from "./MemberSocial";
 import MemberBio from "./MemberBio";
 
+import './member.css';
+
 function Member(props) {
   const params = useParams();
   console.log(props)

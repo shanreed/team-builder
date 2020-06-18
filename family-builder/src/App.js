@@ -17,32 +17,40 @@ function App() {
   
 console.log(membersState[0].name)
 
-  // const addNewMember = member => {
-  //   const newMember = {
-  //     id: Date.now(),
-  //     name: member.name,
-  //     age: member.age,
-  //     bio: member.bio,
-  //     social: member.social
-  //   }
-  //   setMembersState([
-  //     ...membersState,
-  //     newMember
-  //   ])
-  // }
-  // console.log()
+  const addNewMember = member => {
+    const newMember = {
+      id: Date.now(),
+      name: member.name,
+      age: member.age,
+      bio: member.bio,
+      social: member.social
+    }
+    setMembersState([
+      ...membersState,
+      newMember
+    ])
+  }
+  console.log()
   return (
     
     <div className="App">
-      <nav>
-        <h1 className="header">Family</h1>
 
-        <div className="nav-links">
+      <header>
+          <h1 className="header">Family</h1>
+          <div className="nav-links">
 
           <Link to="/">Home</Link>
           <Link to="/members-list">Members</Link>
           <Link to="/addMember">ADD MEMBER</Link>
+          <a href = "#">Sign Up</a>
+          <a href = "#">Sign In</a>
+          <a href = "#">About</a>
           </div>
+      </header>
+      <nav>
+        
+
+       
         <Switch>
               <Route exact path = "/" component = { Home } />
 
@@ -55,14 +63,18 @@ console.log(membersState[0].name)
                 render={props => {
                   return <MembersList members = { membersState } {...props} />;
                 }}>
-                {/* <Form addNewMember = { addNewMember }/> */}
-                {/* <MembersList members = { membersState } /> */}
+                <Form addNewMember = { addNewMember }/>
+                <MembersList members = { membersState } />
                </Route>
 
           </Switch>
 
         
       </nav>
+
+      <footer>
+        <h1>FOOTER</h1>
+      </footer>
     </div>
   );
 }
