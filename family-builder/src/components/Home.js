@@ -11,9 +11,9 @@ function Home(props) {
 
   return (
     <div className="home-wrapper">
-      {/* <button className="md-button shop-button" onClick={routeToMembers}>
-        Shop now!
-      </button> */}
+      <button className="home-member-button" onClick={routeToMembers}>
+        See All Members!
+      </button>
     </div>
   );
 }

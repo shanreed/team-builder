@@ -4,7 +4,7 @@ import { Link, useHistory } from "react-router-dom";
 function MembersList(props) {
 
 
-//   const { push, goBack } = useHistory();
+  const { push, goBack } = useHistory();
   const { members } = props; 
   console.log("This is:", props);
 

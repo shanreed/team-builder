@@ -7,7 +7,7 @@ export default [
         "https://picsum.photos/200/300",
       bio:
         "Member Bio",
-      socialMedia:
+      social:
         "Social Media Link"
     },
     {
@@ -18,7 +18,7 @@ export default [
           "https://picsum.photos/200/300",
         bio:
           "Member Bio",
-        socialMedia:
+        social:
           "Social Media Link"
       },
       {
@@ -29,7 +29,7 @@ export default [
           "https://picsum.photos/200/300",
         bio:
           "Member Bio",
-        socialMedia:
+        social:
           "Social Media Link"
       },
       {
@@ -40,7 +40,7 @@ export default [
           "https://picsum.photos/200/300",
         bio:
           "Member Bio",
-        socialMedia:
+        social:
           "Social Media Link"
       },
       {
@@ -51,7 +51,7 @@ export default [
           "https://picsum.photos/200/300",
         bio:
           "Member Bio",
-        socialMedia:
+        social:
           "Social Media Link"
       },
       {
@@ -62,7 +62,7 @@ export default [
           "https://picsum.photos/200/300",
         bio:
           "Member Bio",
-        socialMedia:
+        social:
           "Social Media Link"
       }
       

@@ -32,7 +32,7 @@ function Form({ addNewMember }) {
     alert(`submitting ${member.name}, ${member.age}, ${member.bio}, ${member.social}`)
   }
   return (
-    <div className="App">
+    <div className="form">
       <form onSubmit = {handleSubmit }>
 
         <label htmlFor = "name">
